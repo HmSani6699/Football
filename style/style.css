@@ -1,0 +1,132 @@
+/* stylesheet */
+/*--------------- 
+section-header-part
+-------------------- */
+body {
+    background: #000000;
+}
+
+#top {
+    background-color: #2D25A0;
+}
+
+.title {
+    color: #FFFFFF;
+    font-size: 64px;
+}
+
+.fifa-img img {
+    width: 556.01px;
+    height: 438px;
+}
+
+.fifas {
+    display: flex;
+    margin: 156px;
+}
+
+.fifa-img {
+    margin-left: 150px;
+}
+
+main,
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+/* stylesheet---medail-part */
+.container {
+    background: #FFFFFF;
+    width: 1400px;
+    padding: 30px;
+}
+
+
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin: 100px 200px;
+}
+
+.player {
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gainsboro;
+}
+
+.player-img img {
+    width: 300px;
+    height: 256px;
+}
+
+/* -------------
+three-part 
+-------------*/
+.blogs {
+    display: flex;
+    margin: 0 100px;
+}
+
+.blog,
+.blog-img,
+.footer {
+    padding: 0 20px;
+}
+
+.blog-title {
+    font-size: 48px;
+}
+
+.author a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    margin-top: 24px;
+}
+
+.blog-img img {
+    width: 567px;
+    height: 427px;
+}
+
+/* --------------
+footer-part-
+------------- */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 158px;
+}
+
+.logo img {
+    width: 483.87px;
+    height: 110px;
+}
+
+/* media--query-- */
+@media only screen and (max-width:688px) {
+    .container {
+        width: 100px;
+    }
+
+    .players,
+    .fifas {
+        background-color: blue;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .player,
+    .fifa,
+    .fifa-img,
+    .logo,
+    .social-icons {
+        flex-direction: column;
+    }
+
+}
