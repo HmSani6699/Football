@@ -108,38 +108,3 @@ footer-part-
     width: 483.87px;
     height: 110px;
 }
-
-/* media--query-- */
-@media only screen and (max-width:688px) {
-    .container {
-        width: 100px;
-    }
-
-    .players,
-    .fifas {
-
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .player,
-    .fifa,
-    .fifa-img,
-    .logo,
-    .social-icons {
-        flex-direction: column;
-    }
-
-}
-
-/* @media only screen and (min-width:688px) and (max-width:992px) {
-    /* .container {
-        width: 100px; */
-}
-
-.players {
-    grid-template-columns: repeat(2, 1fr);
-}
-
-}
-
-*/
