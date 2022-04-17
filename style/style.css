@@ -152,6 +152,12 @@ footer-part-
     .fifas {
         flex-direction: column;
     }
+
+    .blog-img img {
+        width: 300px;
+        height: 256;
+        margin-top: 25px;
+    }
 }
 
 @media only screen and (min-width:688px)and (max-width:992px) {
