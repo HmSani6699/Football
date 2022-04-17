@@ -108,3 +108,72 @@ footer-part-
     width: 483.87px;
     height: 110px;
 }
+
+@media only screen and (max-width:688px) {
+    .fifas {
+        margin: 0;
+    }
+
+    .fifa-img {
+        margin: 0;
+    }
+
+    .blogs {
+        margin: 0 0px;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .players {
+        margin: 0;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .fifas,
+    .players,
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .fifa,
+    .fifa-img,
+    .player,
+    .blog,
+    .blog-img {
+        flex-direction: column;
+    }
+
+    .blogs,
+    .fifas {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width:688px)and (max-width:992px) {
+    .container {
+        width: 100%;
+    }
+
+    .fifas {
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .players {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        margin: 20px 0;
+    }
+
+}
